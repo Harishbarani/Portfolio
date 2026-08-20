@@ -1,0 +1,12 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+:root {
+  color-scheme: dark;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: color-mix(in srgb, var(--neon-blue) 30%, transparent); }
